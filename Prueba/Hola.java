@@ -5,6 +5,7 @@ public class Hola {
 
     public static void main(String[] args) {
         
+        String cadena;
         String nombre;
         Scanner sc = new Scanner(System.in);
         boolean vacio = true;
@@ -21,8 +22,6 @@ public class Hola {
             }
         }
         while (nombre.isEmpty()); 
-
-
         
 
         System.out.println("Salu2 " + nombre);
